@@ -1,0 +1,52 @@
+h1 
+	color: darkgrey
+	text-align: center
+	font-size: 44px
+
+html, body, div, img 
+	margin: 0
+	padding: 0
+	border: 0 
+	font-size: 100%
+	vertical-align: baseline 
+
+body 
+	line-height: 1
+	
+.imagegallery 
+	display: flex
+	flex-wrap: wrap
+	padding: 5px
+	justify-content: space-around
+	align-items: center
+	
+.gallery 
+	margin: 5px	
+	padding: 10px
+	border: 5px solid darkgrey
+	box-shadow: 3px 3px grey
+	background-color: lightgrey
+	align-items: center
+
+
+
+
+
+@media only screen and (max-width: 600px) 
+	h1
+		color: red
+
+	body 
+		background-color: #4293f5
+
+@media only screen and (min-width: 600px) 
+	h1 
+		color: blue
+
+	body 
+		background-color: #f5c542	
+
+@media only screen and (min-width: 768px)
+	body 
+		background-color: white
+	
